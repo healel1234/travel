@@ -1,0 +1,86 @@
+
+
+#prodeatails .single-pro-image{
+
+    width: 100%;
+    
+   
+    margin: right 50px; 
+
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+   
+}
+#MainImg{
+   height: 300px;
+}
+
+.small-img{
+    height: 60px;
+
+}
+#MainImg{
+    border-radius: 35px;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+    height: 100px;
+}
+
+.single-pro-details{
+    border: solid black;
+    display: grid;
+    border-radius: 35px;
+}
+.section-p1{
+   
+    display: grid;
+grid-template-columns: 2fr 2fr;
+   border: solid black;
+   border-radius: 35px;
+   gap:15px;
+   
+}
+.home-packages{
+display: grid;
+grid-template-columns: 2fr 2fr;
+gap: 2rem;
+
+
+  
+
+}
+.container {
+    position: relative;
+  }
+  
+  .activity-box {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .title:hover + .activity-box {
+    display: block;
+  }
+  
+  .activity-image {
+    width: 100px; /* Ajuster la largeur de l'image selon vos besoins */
+    height: auto; /* Garder le ratio hauteur/largeur */
+  }
+  
+  body {
+   
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 0.5); /* 0.5 représente le niveau de transparence (entre 0 et 1) */
+}

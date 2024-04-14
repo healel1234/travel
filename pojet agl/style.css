@@ -1,0 +1,134 @@
+body {
+    background-image :url(hotel.jpg);
+    background-size: cover;
+} 
+#form { 
+    background-color: black;
+    height: 500px;
+    width: 700px;
+    margin: auto  ;
+    padding: 20px ;
+    opacity: 0.7 ;
+
+}
+#from1 h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: #007bff;
+  text-align: center;
+}
+#form h3 {
+  color: #007bff;
+  margin-left: 10px;
+  margin-right: 20px;
+  font-family: sans-serif;
+    border-bottom: 2px solid #3399ff;
+    width: 110px;
+    padding: 7px;
+}
+::placeholder{
+    color: #fff;
+
+}
+#input #from {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: blue;
+  text-align:justify;
+}
+
+#input #radio
+{
+
+  font-style:normal;
+  color: rgb(255, 255, 255);
+  
+}
+#input #nom 
+{
+  
+  width: 300px;
+  margin:5px;
+  border-top: none;
+  border-left: none;
+border-right: none;
+outline: none;
+background: transparent;
+color: #fff;
+}
+
+#input2 #nom 
+{
+  width: 195px;
+  margin: 5px;
+  border-top: none;
+  border-left: none;
+border-right: none;
+outline: none;
+background: transparent;
+color: #fff;
+
+}
+
+
+#input6 #nom
+{
+    width: 300px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+  border-right: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+
+#input7 #baton
+{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #4CAF50; 
+  color: #fff; 
+  background-color: #4CAF50; 
+  border-radius: 5px; 
+  cursor: pointer;
+}
+h2 {
+    text-align: center;
+    color: #007bff;
+  }
+  
+  form {
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .option {
+    margin-bottom: 10px;
+  }
+  
+  input[type="radio"] {
+    display: none;
+  }
+  
+  input[type="radio"] + label {
+    display: inline-block;
+    cursor: pointer;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="radio"]:checked + label {
+    background-color:#007bff;
+    color: #007bff;
+    border-color: #007bff;
+  }
+  #input4 #dejeuner
+{
+color: #007bff;
+}

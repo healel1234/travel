@@ -1,0 +1,137 @@
+ body {
+    background-image :url(photo_avion.jpg);
+    background-size: cover;
+} 
+#form { 
+    background-color: black;
+    height: 500px;
+    width: 700px;
+    margin: auto  ;
+    padding: 20px ;
+    opacity: 0.7 ;
+
+}
+#from1 h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: blue;
+  text-align: center;
+}
+#form h3 {
+  color: aqua;
+  margin-left: 20px;
+  margin-right: 20px;
+  font-family: sans-serif;
+    border-bottom: 2px solid #3399ff;
+    width: 110px;
+    padding: 7px;
+}
+::placeholder{
+    color: #fff;
+
+}
+#input #from {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  color: blue;
+  text-align:justify;
+}
+
+#input #radio
+{
+
+  font-style:normal;
+  color: rgb(255, 255, 255);
+  
+}
+#input #nom 
+{
+  
+  width: 300px;
+  margin:5px;
+  border-top: none;
+  border-left: none;
+border-right: none;
+outline: none;
+background: transparent;
+color: #fff;
+}
+#input4 #nom 
+{
+  
+  width: 300px;
+  margin:5px;
+  border-top: none;
+  border-left: none;
+border-right: none;
+outline: none;
+background: transparent;
+color: #fff;
+}
+#input2 #nom 
+{
+  width: 195px;
+  margin: 5px;
+  border-top: none;
+  border-left: none;
+border-right: none;
+outline: none;
+background: transparent;
+color: #fff;
+
+}
+#input3 #nom {
+    margin-left: 50px;
+}
+#input4 #nom {
+    width: 300px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+  border-right: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+#input4 #nom1{
+    width: 615px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+  border-right: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+#input5 h3 {
+    
+    border-bottom: 3px solid #3399ff;
+    width: 220px;
+    padding: 5px;
+}
+#input6 #nom
+{
+    width: 300px;
+    margin: 5px;
+    border-top: none;
+    border-left: none;
+  border-right: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+}
+
+#input7 #baton
+{
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 2px solid #4CAF50; /* Couleur de la bordure */
+  color: #fff; /* Couleur du texte */
+  background-color: #4CAF50; /* Couleur de fond */
+  border-radius: 5px; /* Arrondi des coins */
+  cursor: pointer;
+}

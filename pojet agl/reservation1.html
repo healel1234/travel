@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ 
+    <link rel="stylesheet" href="res.css">
+   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+    const form = document.querySelector('form');
+
+    form.addEventListener('submit', function(event) {
+        event.preventDefault(); // Prevent the form from submitting
+
+        // Get values from form fields
+        const prenom = document.querySelector('input[placeholder="prenom"]').value;
+        const nom = document.querySelector('input[placeholder="nom"]').value;
+        const date = document.querySelector('input[placeholder="DD-MM-YYYY"]').value;
+        const seating = document.querySelector('select').value;
+        const adulte = document.querySelector('input[placeholder="adulte"]').value;
+        const enfant = document.querySelector('input[placeholder="enfant(2-11ans)"]').value;
+        const bebe = document.querySelector('input[placeholder="bébé(1 2mois)"]').value;
+        const email = document.querySelector('input[placeholder="email"]').value;
+        const confirmEmail = document.querySelector('input[placeholder="confirmez votre adress e-mail"]').value;
+        const indicatif = document.querySelector('select[name="indicatif"]').value;
+        const phone = document.querySelector('input[placeholder="numéro de protable"]').value;
+        const address = document.querySelector('input[placeholder="adress"]').value;
+        const postalCode = document.querySelector('input[placeholder="code postal"]').value;
+        const city = document.querySelector('input[placeholder="ville"]').value;
+        const country = document.querySelector('select[name="pays"]').value;
+
+        // Perform further actions with the form data, such as validation or submission to a server
+        console.log('Form Data:');
+        console.log('Prénom:', prenom);
+        console.log('Nom:', nom);
+        console.log('Date:', date);
+        console.log('Seating:', seating);
+        console.log('Adulte:', adulte);
+        console.log('Enfant:', enfant);
+        console.log('Bébé:', bebe);
+        console.log('Email:', email);
+        console.log('Confirm Email:', confirmEmail);
+        console.log('Indicatif:', indicatif);
+        console.log('Phone:', phone);
+
+
+        console.log('Address:', address);
+        console.log('Postal Code:', postalCode);
+        console.log('City:', city);
+        console.log('Country:', country);
+    });
+});
+
+   </script>
+</head>
+<body>
+    <div id="from1" class="container">
+        
+    <form  method="post">
+        <h1> reservation </h1>
+      <div id="form">
+    <h3>Passager</h3>
+    <div id="input">    
+        <label for="nom" id="radio">M.</label>
+        <input type="radio" id="nom" name="r">
+        <label  form="nom" id="radio">MMe</label>
+        <input type="radio" id="nom" name="r">
+        
+        <input type="text" id="nom" placeholder="prenom">
+        <input type="text" id="nom" placeholder="nom">
+        <input type ="date" id="nom" placeholder="DD-MM-YYYY"> <br> <br>
+    
+<select id="nom"style="background: black;">
+    <option value="">preffered seating</option>
+    <option value=""> economy class</option>
+    <option value="">affaire class</option>
+    <option value="">premier class</option>
+</select>
+</div>
+<div id="input2">
+    <input type="number" id="nom" placeholder="adulte">
+    <input type="number" id="nom" placeholder="enfant(2-11ans)">
+    <input type="number" id="nom" placeholder="bébé(1 2mois)">
+</div> 
+
+<div id ="input5">
+    <h3> coordonnées </h3>
+
+</div>
+<div id="input6">
+    
+    <input type="text" id="nom" placeholder="email">
+    <input type="text" id="nom" placeholder="confirmez votre adress e-mail">
+    <select id="nom" style="background: black;">
+        <option value="">indicatif pays </option>
+        <option value=""> france(+33)</option>
+        <option value="">italie(+39)</option>
+        <option value="">brésil(+55)</option>
+        <option value="">maldives(+960)</option>
+        <option value="">turquie(+9) </option>
+        <option value="">miami</option>
+        <option value="">saudi arabia</option>
+    </select>
+    <input type="text" id="nom" placeholder="numéro de protable">
+
+</div>
+<div id="input4">
+    <input type="text" id="nom" placeholder="adress">
+    <input type="text" id="nom" placeholder="code postal">
+    <input type="text" id="nom" placeholder="ville">
+    
+    <select id="nom" style="background: black;">
+        <option value="">pays</option>
+        <option value=""> maldives</option>
+        <option value="">miami</option>
+        <option value="">brésil</option>
+        <option value="">italie</option>
+        <option value="">turquie</option>
+        <option value="">france</option>
+        <option value="">saudi arabia</option>
+    </select>
+
+</div>
+<div id="input7">   
+<button id ="baton" type="submit">confirmez</button>
+</div>
+ 
+</div>
+    </form>
+   </div> 
+
+     
+</body>
+</html>

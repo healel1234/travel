@@ -1,0 +1,61 @@
+body{
+    background-image: url(riode.jpg);
+}
+
+.hero{
+    width: 100%;
+    height: 200vh;
+    background-image: linear-gradient(rgba(0,0,0,0.3), #0f1011),  url(riode.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.conteneur{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr  1fr;
+    grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px 100px  100px  100px  100px  100px   ;
+   padding: 20px;
+   gap: 10px;
+   
+   
+}
+.une{
+    
+    grid-column: 1/3;
+   grid-row: 1/6;
+   border-left:solid white ;
+    border-top: solid white;
+    border-bottom:solid white ;
+   
+   
+}
+#prodeatails .single-pro-image{
+
+    width: 100%;
+    
+   
+    margin: right 50px; 
+
+}
+
+.small-img-group{
+    display: flex;
+    justify-content: space-between;
+   
+}
+#MainImg{
+   height: 300px;
+}
+
+.small-img{
+    height: 87px;
+
+}
+#MainImg{
+    border-radius: 35px;
+}
+
+.small-img-col{
+    flex-basis: 24%;
+    cursor: pointer;
+    height: 100px;
+}
